@@ -559,7 +559,7 @@ header.inner-header .top-header {
   padding: 0;
 }
 /*========================= Banner ===================*/
-#banner h5,#banner h1, #banner a {
+#banner h5,#banner h1, #banner a, .buy-button {
   color:#fff;
   text-transform: uppercase;
 }
@@ -569,7 +569,7 @@ header.inner-header .top-header {
 #banner h1 {
   line-height: 68px;
 }
-#banner a {
+#banner a, .buy-button {
   line-height: 50px !important;
   width:175px;
   text-align: center;
@@ -585,6 +585,19 @@ header.inner-header .top-header {
 }
 #banner a.buy-button:hover {
   background: transparent;
+}
+
+.buy-button{
+  color: #A4243B!important;
+  background-color: white!important;
+}
+
+.nav-menu-btn-login{
+  margin: 30px 25px 0 60px!important;
+}
+
+.logo{
+  margin-top: 10px;
 }
 
 /*==================== Manage Section =================*/
